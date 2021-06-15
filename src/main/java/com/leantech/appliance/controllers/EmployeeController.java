@@ -37,7 +37,7 @@ public class EmployeeController {
         return new ResponseEntity(HttpStatus.OK);
     }
 
-    @RequestMapping(method = RequestMethod.PUT,value = Routes.ALL)
+    @RequestMapping(method = RequestMethod.PUT)
     public ResponseEntity<List> update(@RequestBody Employee employee) {
         employeeService.update(employee);
         return new ResponseEntity(HttpStatus.OK);

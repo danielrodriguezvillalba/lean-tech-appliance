@@ -48,7 +48,7 @@ public class Employee {
         this.position = position;
     }
 
-    public Person getCandidate() {
+    public Person getPerson() {
         return person;
     }
 
